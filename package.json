@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-oussama",
+  "name": "portfolio-OB",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://osis6.github.io/portfolio-OB",
+  "homepage": "https://osis6.github.io/portfolio-OB/",
   "type": "module",
   "scripts": {
     "dev": "vite",
