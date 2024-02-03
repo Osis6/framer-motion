@@ -76,7 +76,7 @@ const Hero = () => {
         Full-Stack Web developer
       </motion.div>
       <div className='imageContainer'>
-        <img src='/OBlogo.png' alt='avatar-bounou' />
+        <img src='/OBlogo.webp' alt='avatar-bounou' />
       </div>
     </div>
   );
