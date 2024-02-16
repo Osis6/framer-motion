@@ -1,5 +1,6 @@
 /** @format */
-
+import React from 'react';
+import { HashRouter as Router } from 'react-router-dom';
 import './app.scss';
 import Contact from './components/contact/Contact';
 import Cursor from './components/cursor/Cursor';
@@ -11,26 +12,28 @@ import Services from './components/services/Services';
 
 const App = () => {
   return (
-    <div>
-      <Cursor />
-      <section id='Accueil'>
-        <Navbar />
-        <Hero />
-      </section>
-      <section id='Services'>
-        <Parallax type='services' />
-      </section>
-      <section>
-        <Services />
-      </section>
-      <section id='Portfolio'>
-        <Parallax type='portfolio' />
-      </section>
-      <Portfolio />
-      <section id='Contact'>
-        <Contact />
-      </section>
-    </div>
+    <Router>
+      <div>
+        <Cursor />
+        <section id='Accueil'>
+          <Navbar />
+          <Hero />
+        </section>
+        <section id='Services'>
+          <Parallax type='services' />
+        </section>
+        <section>
+          <Services />
+        </section>
+        <section id='Portfolio'>
+          <Parallax type='portfolio' />
+        </section>
+        <Portfolio />
+        <section id='Contact'>
+          <Contact />
+        </section>
+      </div>
+    </Router>
   );
 };
 

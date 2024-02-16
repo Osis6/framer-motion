@@ -75,7 +75,7 @@ const Services = () => {
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Design</h2>
+          <h2> Design </h2>
           <ul>
             <span>
               <li>
